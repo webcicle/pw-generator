@@ -1,0 +1,21 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.1.7"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^1.1.0",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "preact": "^10.6.5"
+  }
+}

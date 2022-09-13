@@ -1,0 +1,29 @@
+---
+import { Generator } from '../components/Generator'
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to Astro.">
+   <main>
+      <Generator client:load />
+
+   </main>
+</Layout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+	}
+
+   
+
+   main {
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      background-color: #0d0a14;
+   }
+
+	
+</style>
